@@ -67,12 +67,12 @@
     "custom-react-doughnut-chart"
   ],
   "bugs": {
-    "url": "https://github.com/Keval-R/custom-chart-demo/issues"
+    "url": "https://github.com/Mindinventory/result-doughnut-chart/issues"
   },
-  "homepage": "https://github.com/Keval-R/custom-chart-demo",
+  "homepage": "https://github.com/Mindinventory/result-doughnut-chart",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Keval-R/custom-chart-demo.git"
+    "url": "git+https://github.com/Mindinventory/result-doughnut-chart.git"
   },
   "engines": {
     "npm": ">=9.2.0",

@@ -1,0 +1,81 @@
+{
+  "name": "@mindinventory/result-doughnut-chart",
+  "version": "1.0.0",
+  "description": "The result doughnut chart is dynamic chart component. Here we show two charts. The first is full doughnut chart when user select any colour section of first chart that time the second chart (half doughnut chart) value change based on first chart selection. Below is the JSON object we used as data for charts. So from there you can change title, colour, text, etc...",
+  "author": "Mindinventory",
+  "license": "MIT",
+  "private": false,
+  "main": "./build-webpack/Chart.js",
+  "module": "./build-webpack/Chart.js",
+  "files": [
+    "build-webpack",
+    "README.md"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.1.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "webpack": "rm -rf build-webpack && webpack",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "react js",
+    "custom",
+    "doughnut",
+    "chart",
+    "doughnut-chart",
+    "custom-react-doughnut-chart"
+  ],
+  "bugs": {
+    "url": "https://github.com/Keval-R/custom-chart-demo/issues"
+  },
+  "homepage": "https://github.com/Keval-R/custom-chart-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keval-R/custom-chart-demo.git"
+  },
+  "engines": {
+    "npm": ">=9.2.0",
+    "node": ">=18.4.0"
+  }
+}
